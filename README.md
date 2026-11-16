@@ -1,8 +1,7 @@
 # Big-Data-Project
 
 Question métier initiale :
-Quels facteurs démographiques et professionnels (niveau d'éducation, nombre d'heures
-travaillées, profession) sont les plus associés au fait de gagner plus de 50 000 $ par an ?
+Quelles sont les villes et pays les plus performants en termes de commandes livrées, et quel est l'impact des formats incohérents de Country et des villes manquantes sur ce classement ?
 
 Lien du dépôt Kaggle : 
 https://www.kaggle.com/datasets/afaqkhan091/messy-e-commerce-sales-dataset-2026/data
