@@ -1,77 +1,65 @@
-namespace=user-t-buresi-ece  2026-11-24 08:49:10
+========================================================================
+namespace=user-t-buresi-ece  2026-11-26 11:08:48
 fichier : data/ecommerce_retail_transactions_raw.csv
 lignes : 12180   colonnes : 13
 colonnes : ['Order_ID', 'Customer_ID', 'Order_Date', 'Product_Category', 'Product_Name', 'Quantity', 'Unit_Price_USD', 'Discount_Percent', 'Payment_Method', 'Shipping_City', 'Country', 'Order_Status', 'Customer_Rating']
 doublons exacts (lignes en trop) : 180
-
 COLONNE Order_ID
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 12000   longueur min/max : 9/9
   formats (9=chiffre, A=lettre) : [('AAA999999', 12180)]
-  exemples : ['ORD011416', 'ORD011407', 'ORD005427', 'ORD002304', 'ORD006172']
-
+  exemples : ['ORD000974', 'ORD000617', 'ORD006437', 'ORD000740', 'ORD011216']
 COLONNE Customer_ID
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 3374   longueur min/max : 9/9
   formats (9=chiffre, A=lettre) : [('AAAA99999', 12180)]
   exemples : ['CUST02900', 'CUST00940', 'CUST01216', 'CUST00959', 'CUST02081']
-
 COLONNE Order_Date
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 4229   longueur min/max : 10/11
   formats (9=chiffre, A=lettre) : [('99-99-9999', 2493), ('9999-99-99', 2488), ('99/99/9999', 2423), ('9999/99/99', 2400), ('99 AAA 9999', 2376)]
   exemples : ['10-15-2024', '17 Jun 2024', '11-09-2024', '21/03/2026', '19/08/2025']
-
 COLONNE Product_Category
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 8   longueur min/max : 4/14
   valeurs : [('Home & Kitchen', 1568), ('Toys', 1557), ('Books', 1552), ('Fashion', 1539), ('Beauty', 1510), ('Electronics', 1507), ('Grocery', 1491), ('Sports', 1456)]
-
 COLONNE Product_Name
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 46   longueur min/max : 6/19
   formats (9=chiffre, A=lettre) : [('AAAAAAAA', 1124), ('AAAAAAA', 730), ('AAAAAAA AAAAA', 611), ('AAAAAA AAAAA', 557), ('AAAAAAA AAAAAA', 506), ('AAAAAAAAAA', 414), ('AAAAAA 9999AA', 395), ('AAAAAA AAAAAAA AAA', 392)]
   exemples : ['Self-Help Book', 'Fiction Novel', 'Formal Shirt', 'Cookbook', 'Dumbbell Set']
-
 COLONNE Quantity
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 7   longueur min/max : 1/2
   NUMÉRIQUE (12180/12180 convertibles) : min=-1.0 max=5.0 moy=2.02 négatifs=101 zéros=91
   valeurs : [('1', 5324), ('2', 3010), ('3', 1838), ('4', 1240), ('5', 576), ('-1', 101), ('0', 91)]
-
 COLONNE Unit_Price_USD
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 7791   longueur min/max : 3/6
   NUMÉRIQUE (12180/12180 convertibles) : min=3.01 max=249.84 moy=61.55 négatifs=0 zéros=0
   formats (9=chiffre, A=lettre) : [('99.99', 7973), ('999.99', 2254), ('99.9', 851), ('9.99', 741), ('999.9', 277), ('9.9', 84)]
   exemples : ['34.24', '72.0', '125.28', '21.44', '37.22']
-
 COLONNE Discount_Percent
   vides/NULL : 735 (6.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 6   longueur min/max : 3/4
   NUMÉRIQUE (11445/11445 convertibles) : min=0.0 max=25.0 moy=7.30 négatifs=0 zéros=4099
   valeurs : [('0.0', 4099), ('10.0', 2281), ('5.0', 2265), ('15.0', 1640), ('20.0', 839), (None, 735), ('25.0', 321)]
-
 COLONNE Payment_Method
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 20   longueur min/max : 3/16
   valeurs : [('paypal', 709), ('net banking', 708), ('PayPal', 695), ('UPI', 692), ('Net Banking', 690), ('DEBIT CARD', 680), ('NetBanking', 658), ('U.P.I', 651), ('Pay Pal', 649), ('debit card', 632), ('Debit Card', 627), ('upi', 622), ('COD', 542), ('CREDIT CARD', 538), ('cash on delivery', 531), ('cod', 525), ('Credit_Card', 517), ('credit card', 508), ('Cash on Delivery', 503), ('Credit Card', 503)]
-
 COLONNE Shipping_City
   vides/NULL : 502 (4.1 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 22   longueur min/max : 5/11
   valeurs : [('Abu Dhabi', 881), ('Dubai', 808), ('Hamburg', 609), ('Melbourne', 586), ('Manchester', 583), ('Brisbane', 579), ('Birmingham', 571), ('London', 563), ('Munich', 558), ('Toronto', 545), ('Montreal', 540), ('Berlin', 535), ('Sydney', 512), (None, 502), ('Vancouver', 489), ('New York', 456), ('Hyderabad', 433), ('Chicago', 425), ('Bengaluru', 414), ('Los Angeles', 401), ('Delhi', 400), ('Mumbai', 399), ('Houston', 391)]
-
 COLONNE Country
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 24   longueur min/max : 2/14
-  valeurs : [('UAE', 609), ('australia', 599), ('DE', 596), ('Germany', 592), ('IN', 588), ('U.A.E', 588), ('germany', 587), ('Australia', 586), ('india', 584), ('uae', 579), ('canada', 569), ('CA', 550), ('AU', 550), ('India', 547), ('Canada', 538), ('uk', 461), ('U.K.', 448), ('United Kingdom', 442), ('UK', 433), ('usa', 370), ('USA', 365), ('United States', 346), ('US', 342), ('U.S.A', 311)]
-
+  valeurs : [('UAE', 609), ('australia', 599), ('DE', 596), ('Germany', 592), ('IN', 588), ('U.A.E', 588), ('germany', 587), ('Australia', 586), ('india', 584), ('uae', 579), ('canada', 569), ('AU', 550), ('CA', 550), ('India', 547), ('Canada', 538), ('uk', 461), ('U.K.', 448), ('United Kingdom', 442), ('UK', 433), ('usa', 370), ('USA', 365), ('United States', 346), ('US', 342), ('U.S.A', 311)]
 COLONNE Order_Status
   vides/NULL : 0 (0.0 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 5   longueur min/max : 7/9
   valeurs : [('Delivered', 6673), ('Shipped', 1848), ('Pending', 1416), ('Cancelled', 1207), ('Returned', 1036)]
-
 COLONNE Customer_Rating
   vides/NULL : 6150 (50.5 %)   valeurs bidons : 0   espaces parasites : 0
   distinctes : 5   longueur min/max : 3/3

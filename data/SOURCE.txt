@@ -2,10 +2,10 @@ nom           : Messy E-Commerce Sales Dataset 2026
 auteur        : afaqkhan091 (Kaggle)
 dataset_url   : https://www.kaggle.com/datasets/afaqkhan091/messy-e-commerce-sales-dataset-2026
 licence       : CC0: Public Domain
-telecharge_le : <AAAA-MM-JJ>
+telecharge_le : 2026-11-23
 fichier       : ecommerce_retail_transactions_raw.csv
 taille_octets : 1230043
 taille_Mo     : 1.17
 lignes        : 12181
 sha256        : 7e1633fc5cf8f81437d46d80fea29879d57cf31cd7c91c438692caa1996c2db1
-verifie_le    : 2026-11-23 18:57:16 UTC (namespace user-t-buresi-ece)
+verifie_le    : 2026-11-26 11:27:28 UTC (namespace user-t-buresi-ece)
