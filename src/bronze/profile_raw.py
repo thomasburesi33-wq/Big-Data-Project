@@ -43,7 +43,6 @@ for c in cols:
                count(try_cast({col} AS DOUBLE))
         FROM raw""")[0]
     filled = total - nulls
-    print("\n" + "-" * 72)
     print(f"COLONNE {c}")
     print(f"  vides/NULL : {nulls} ({100 * nulls / total:.1f} %)   "
           f"valeurs bidons : {bidon}   espaces parasites : {spaces}")
